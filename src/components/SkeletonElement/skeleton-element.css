@@ -1,0 +1,21 @@
+.skeleton {
+  background-color: rgb(182, 182, 182);
+}
+.skeleton-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.star {
+  animation: animate 1.5s infinite alternate;
+}
+
+@keyframes animate {
+  0% {
+    background-color: rgb(236, 236, 236);
+  }
+  100% {
+    background-color: rgb(182, 182, 182);
+  }
+}
