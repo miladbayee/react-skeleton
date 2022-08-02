@@ -1,9 +1,9 @@
-import SkeletonElement from "../SkeletonElement/SkeletonElement";
+import SkeletonProfile from "../SkeletonProfile/SkeletonProfile";
 
 const Skeleton = () => {
   return (
     <div>
-      <SkeletonElement type="avatar" animation="star" />
+      <SkeletonProfile />
     </div>
   );
 };
