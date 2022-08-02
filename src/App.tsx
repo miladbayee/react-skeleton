@@ -1,7 +1,11 @@
+import Skeleton from "./components/Skeleton/Skeleton";
+
 const App = () => {
   return (
-    <h1>React Skeleton Project</h1>
-  )
-}
+    <>
+      <Skeleton />
+    </>
+  );
+};
 
 export default App;
